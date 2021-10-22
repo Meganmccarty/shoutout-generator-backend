@@ -18,13 +18,14 @@ To create your own copy of this project:
     - Optional: to use some existing quotes, run `rails db:seed`, or edit the `seed.rb` file and add in your own quotes before running `rails db:seed`
 8. Run `rails s`
 
-The website should open up in a new browser tab at `http://localhost:4000`. The main route shouldn't have anything. The endpoint `/quotes` will return a list of positive, inspirational quotes in JSON format.
+The website should open up in a new browser tab at `http://localhost:4000`. The main route shouldn't have anything. There are two endpoints: `/quotes`, which returns a list of positive, inspirational quotes in JSON format, and `/random-quote`, which returns a single, random quote from the main list.
 
 ### Configure the frontend (optional)
 If you want to use this API with the corresponding frontend, please see the README for the frontend repo: https://github.com/mehrbeniss/shoutout-generator-front
 
 ## Features
 * View a list of positive, inspirational quotes
+* Fetch a random quote from a pool of inspirational quotes
 
 ## Resources Used
 * Built with Ruby on Rails
