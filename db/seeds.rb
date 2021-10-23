@@ -102,5 +102,20 @@ quotes = Quote.create([
     {
         text: "Nothing is impossible. The word itself says 'I'm possible!",
         author: "Audrey Hepburn"
+    },
+    {
+        text: "You are crushing it!"
+    },
+    {
+        text: "You've 100% got this!"
+    },
+    {
+        text: "Maybe try 'yarn dev' again? :)"
+    },
+    {
+        text: "StackOverflow is your best friend!"
+    },
+    {
+        text: "It's a feature, not a bug!"
     }
 ])
