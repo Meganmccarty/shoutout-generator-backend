@@ -92,5 +92,14 @@ quotes = Quote.create([
     {
         text: "Programming isn't about what you know; it's about what you can figure out.",
         author: "Chris Pine"
+    },
+    {
+        text: "Chill, bud! Take a deep breath, 'git reset' and start again!"
+    },
+    {
+        text: "'Working tree clean!' Yessss, you did it. Now go relax..."
+    },
+    {
+        text: "One 'git add .' at a time! You’re doing great :)"
     }
 ])
