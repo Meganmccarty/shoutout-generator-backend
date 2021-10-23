@@ -110,4 +110,13 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+  config.middleware.insert_before 0, Rack::Cors do
+    allow do
+        origins 'https://mehrbeniss.github.com/shoutout-generator-front'
+        resource '*',
+            headers: :any,
+            expose: ["Authorization"],
+            methods: %i[get post put patch delete options head]
+    end
+  end
 end
