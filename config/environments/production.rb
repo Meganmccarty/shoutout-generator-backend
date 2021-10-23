@@ -112,11 +112,11 @@ Rails.application.configure do
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
   config.middleware.insert_before 0, Rack::Cors do
     allow do
-        origins 'https://mehrbeniss.github.com/shoutout-generator-front'
+        origins '*'
         resource '*',
             headers: :any,
             expose: ["Authorization"],
-            methods: %i[get post put patch delete options head]
+            methods: %i[get]
     end
   end
 end
