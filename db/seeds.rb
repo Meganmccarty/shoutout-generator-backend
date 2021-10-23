@@ -12,14 +12,6 @@ quotes = Quote.create([
         author: "Elbert Hubbard"
     },
     {
-        text: "Miracles happen to those who believe in them.",
-        author: "Bernhard Berenson"
-    },
-    {
-        text: "One small positive thought can change your whole day.",
-        author: "Zig Ziglar"
-    },
-    {
         text: "You can do this!"
     },
     {
@@ -33,20 +25,8 @@ quotes = Quote.create([
         author: "Teddy Roosevelt"
     },
     {
-        text: "Be positive. Be true. Be kind.",
-        author: "Roy T. Bennett"
-    },
-    {
         text: "If you are positive, you'll see opportunities instead of obstacles.",
         author: "Widad Akrawi"
-    },
-    {
-        text: "Write it on your heart that every day is the best day in the year.",
-        author: "Ralph Waldo Emerson"
-    },
-    {
-        text: "Accentuate the positive, Eliminate the Negative, latch onto the affirmative.",
-        author: "Bing Crosby"
     },
     {
         text: "The best is yet to be.",
@@ -57,23 +37,7 @@ quotes = Quote.create([
         author: "Maya Angelou"
     },
     {
-        text: "Turn every life situation into a positive one.",
-        author: "Rhonda Byrne"
-    },
-    {
-        text: "Believe that life is worth living and your belief will help create the fact.",
-        author: "William James"
-    },
-    {
         text: "Do good and good will come to you."
-    },
-    {
-        text: "Surround yourself with positive people and you’ll be a positive person.",
-        author: "Kellie Pickler"
-    },
-    {
-        text: "A positive mindset brings positive things.",
-        author: "Phillip Reiter"
     },
     {
         text: "When things go wrong, don’t go with them.",
@@ -97,9 +61,6 @@ quotes = Quote.create([
         text: "Don't let anyone dull your sparkle!"
     },
     {
-        text: "The best view comes after the hardest climb."
-    },
-    {
         text: "Nothing is impossible. The word itself says 'I'm possible!",
         author: "Audrey Hepburn"
     },
@@ -117,5 +78,19 @@ quotes = Quote.create([
     },
     {
         text: "It's a feature, not a bug!"
+    },
+    {
+        text: "Good software, like wine, takes time.",
+        author: "Joel Spolsky"
+    },
+    {
+        text: "while (!succeed) { return tryAgain() }"
+    },
+    {
+        text: "if (brain !== 'empty') { keepCoding() } else { orderCoffee() }"
+    },
+    {
+        text: "Programming isn't about what you know; it's about what you can figure out.",
+        author: "Chris Pine"
     }
 ])
