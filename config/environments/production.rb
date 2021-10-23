@@ -115,7 +115,6 @@ Rails.application.configure do
         origins '*'
         resource '*',
             headers: :any,
-            expose: ["Authorization"],
             methods: %i[get]
     end
   end
